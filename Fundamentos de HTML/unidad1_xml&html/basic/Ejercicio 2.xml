@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura fecha="10.10.17" id="01">
+  <cliente>
+    <nombre>Fernando</nombre>
+    <telef>982541535</telef>
+  </cliente>
+  <articulos>
+    <articulo id="1">
+      <descripcion>Mouse Microsoft negro, clásico</descripcion>
+      <precio-uni>50</precio-uni>
+      <cantidad>5</cantidad>
+      <precio-final>250</precio-final>
+    </articulo>
+    <articulo id="2">
+      <descripcion>Teclado Microsoft negro, clásico</descripcion>
+      <precio-uni>80</precio-uni>
+      <cantidad>5</cantidad>
+      <precio-final>400</precio-final>
+    </articulo>
+  </articulos>
+  <precio-total>650</precio-total>
+</factura>

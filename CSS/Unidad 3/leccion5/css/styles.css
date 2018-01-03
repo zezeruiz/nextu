@@ -1,0 +1,44 @@
+#contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+#izq {
+  background-color: #3b3b3b;
+  color: white;
+  padding: 20px;
+  width: 25%;
+}
+
+#derecha {
+  background-color: #8acbd9;
+  padding: 20px;
+  display: block;
+  width: 75%;
+}
+
+#row1 {
+  background-color: #fff9a7;
+  padding: 20px;
+}
+
+#row2 {
+  background-color: rgb(144, 121, 221);
+  padding: 20px;
+}
+
+#row3 {
+  background-color: rgb(251, 184, 53);
+  padding: 20px;
+}
+
+@media (max-width:720px) {
+  #contenedor{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #izq, #derecha {
+    width: 100vh;
+  }
+}

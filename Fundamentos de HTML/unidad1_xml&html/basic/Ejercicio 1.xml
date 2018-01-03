@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <nombre>
+    Fernando
+  </nombre>
+  <apellido>
+    Hidalgo
+  </apellido>
+  <edad>
+    20
+  </edad>
+  <mail>
+    zezeruiz.97@gmail.com
+  </mail>
+</persona>

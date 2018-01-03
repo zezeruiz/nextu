@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro de usuario</title>
+  </head>
+  <body>
+    <h1>Registro en Einstrade</h1>
+		<form action="">
+		<p>
+			<label for="username">Nombre y Apellido</label>
+			<br>
+			<input type="text" name="username" placeholder="Ej: luis" autofocus required>
+		</p>
+    <p>
+      <label for="telefono"> Teféfono</label><br>
+      <input type="tel" name="telefono" placeholder="Ej:+51982541535" autofocus required>
+    </p>
+		<p>
+			<label for="email" >Email: </label>
+			<br>
+			<input type="email" name="email" placeholder="Ej: luis@gmail.com" required>
+		</p>
+		<p>
+			<label for="company">Organización/empresa</label>
+			<br>
+			<input type="text" name="company" placeholder="Ej:CAMPOSOL S.A." required>
+		</p>
+    <p>
+      <label for="idcomp">RUC, ID Company</label><br>
+      <input type="text" name="idcomp" placeholder="Ej: 20741975121" autofocus required>
+    </p>
+    <p>
+       <label for="emplo"> Número de empleados</label> <br>
+       <input type="number" name="emplo" min="2" max="300" placeholder="Ej:5" autofocus required>
+    </p>
+    <p>
+		<label for="dob">Fecha de inicio de operaciones</label>
+		<br>
+		<input type="date" name="dob" placeholder="Ej:30/01/2010" required>
+	</p>
+		<p>
+			<label for="typeco"> Tipo de operaciones de comercio exterior</label>
+			<br>
+			<input type="radio" name="typeco"> Importadora
+			<br>
+			<input type="radio" name="typeco"> Exportadora
+      <br>
+      <input type="radio" name="typeco"> Ambas
+		</p>
+		<p>
+			<label for="sector">Sector: </label>
+			<br>
+			<select name="sector">
+				<option value="1">Agrícola</option>
+				<option value="1">Agropecuario</option>
+				<option value="1">Artesanías</option>
+        <option value="1">Madetas y papeles</option>
+        <option value="1">Metal-mecánico</option>
+        <option value="1">Minería no mecánica</option>
+        <option value="1">Minería</option>
+        <option value="1">Pesquero</option>
+        <option value="1">Petrolero y derivados</option>
+        <option value="1">Artesanías</option>
+        <option value="1">Pieles y cueros</option>
+        <option value="1">Textil</option>
+        <option value="1">Varios (incluye joyería)</option>
+			</select>
+		</p>
+		<p>
+			<input type="checkbox" name="accept"> <label for="accept">Acepto terminos y condiciones: </label>
+		</p>
+
+		<p>
+			<input type="submit" value="Registrar">
+		</p>
+		</form>
+  </body>
+</html>

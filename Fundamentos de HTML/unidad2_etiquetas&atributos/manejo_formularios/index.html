@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Registro</title>
+  </head>
+  <body>
+    <h1>Registro en nuestra tienda</h1>
+    <form name="new_user_formulario">
+      <fieldset name="campo_new_user_formulario">
+        <legend>Nuevo usuario</legend>
+        <label for="name">Nombre de usuario</label></br>
+        <input type="text" name="name" placeholder="Ej: Fernando" id="new_user_name">
+        <br>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" placeholder="Ej: fernando@gmail.com" id="new_user_email">
+        <br>
+        <br>
+        <label for="age">Fecha de nacimiento</label>
+        <br>
+        <input type="date" name="age" placeholder="Ej: 26/06/1997" id="new_user_age">
+        <br><br>
+        <label for="genre">Género</label><br>
+        <input type="radio" id="new_user_genre1" name="genre" value="male">
+        <label for="new_user_genre1">Masculino</label><br>
+        <input type="radio" id="new_user_genre2" name="genre" value="female">
+        <label for="new_user_genre1">Femenino</label>
+        <br>
+        <br>
+        <label for="recomendado_drop">Recomendado por</label><br>
+        <select id="recomendado_drop" name="recomendado_drop">
+          <option value="1">Google</option>
+          <option value="1">Amigo</option>
+          <option value="1">Redes sociales</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="new_user_comentarios" rows="3" cols="30"></textarea>
+        <br><br>
+        <label for="accept_tyc">Acepto terminos y condiciones</label><br>
+        <input type="checkbox" name="accept_tyc" id="accept_tyc">
+        <br> <br>
+        <input type="submit" name="registrar" value="Registrar">
+      </fieldset>
+    </form>
+  </body>
+</html>
