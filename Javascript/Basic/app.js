@@ -1,4 +1,4 @@
-/* operadores lógicos
+/* Operadores lógicos
 var respuesta = "";
 respuesta = respuesta + "(6>5) && (5!=6): "+ ((6>5) && (5!=6)) + "\n";
 respuesta = respuesta + "(3<8) || (8==7): "+ ((3<8) || (8==7)) + "\n";
@@ -20,7 +20,7 @@ alert(respuesta);
 
 */
 
-/*area triangulo
+/*Procesos secuenciales
 function areaTriangulo() {
 	var a=0, b=0, c=0;
 	b= prompt("Ingrese la base (b) del triangulo.");
@@ -30,5 +30,22 @@ function areaTriangulo() {
 
 }
 
-areaTriangulo();
-/*
+areaTriangulo();z
+*/
+/* Condicionales
+
+var a= 0, b=0, r= 0;
+a = prompt("Ingrese el valor de a: ");
+b= prompt("Ingrese el valor de b: ");
+
+if (a>b) {
+
+	r= a*b;
+
+} else {
+
+	r= a/b;
+}
+
+alert("El valor de r es: " + r);
+*/
